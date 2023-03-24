@@ -1,0 +1,35 @@
+si prefiere utilizar el postman aqui les dejo el enlace para el ejemplo
+https://www.postman.com/crimson-star-77260/workspace/bookings
+
+
+1 endpoint para obtener todas las habitaciones
+http://localhost:4000/api/bedrooms
+
+///////////////////////////////////////
+
+2 endpoint para obtener todas los clientes
+http://localhost:4000/api/clients
+
+//////////////////////////////////////////
+
+3 endpoint para obtener todas las reservas
+http://localhost:4000/api/bookings
+
+/////////////////////////////////////////
+
+4 endpoint para crear una reserva
+http://localhost:4000/api/bookings
+
+body->raw->json
+{
+    "bedroom_id": 1,
+    "client_id": 2,
+    "arrival_date":"2023-03-23",
+    "departure_date":"2023-03-30",
+    "total_paid": 100.00
+}
+
+////////////////////////////////////////
+
+5 endpoint para eliminar una reserva
+http://localhost:4000/api/booking/3
