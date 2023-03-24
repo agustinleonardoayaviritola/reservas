@@ -8,3 +8,9 @@ example with nodejs, mysql and docker composer
 4 endpoint para poder crear una reserva de una habitacion
 5 endpoint para eliminar una reserva
 
+# Installation
+git clone https://github.com/agustinleonardoayaviritola/reservas.git
+cd reservas
+docker-compose up
+npm install
+npm run dev
